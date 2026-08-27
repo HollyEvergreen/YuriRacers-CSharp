@@ -1,0 +1,6 @@
+<Solution>
+	<ItemGroup>
+		<ProjectReference Include="YuriEngine/YuriEngine.csproj" />
+		<ProjectReference Include="YuriRacers/YuriRacers.csproj" />
+	</ItemGroup>
+</Solution>
