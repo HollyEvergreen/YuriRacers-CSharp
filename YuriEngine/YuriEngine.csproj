@@ -17,4 +17,8 @@
 		<PackageReference Include="Standart.Hash.xxHash" Version="4.0.5" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\Yui\Yui.csproj" />
+	</ItemGroup>
+
 </Project>
