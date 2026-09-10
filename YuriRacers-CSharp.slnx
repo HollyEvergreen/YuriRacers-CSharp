@@ -1,6 +1,5 @@
 <Solution>
-	<ItemGroup>
-		<ProjectReference Include="YuriEngine/YuriEngine.csproj" />
-		<ProjectReference Include="YuriRacers/YuriRacers.csproj" />
-	</ItemGroup>
+	<Project Path="YuriEngine/YuriEngine.csproj" />
+	<Project Path="Yui/Yui.csproj" />
+	<Project Path="YuriRacers_cs\YuriRacers_cs.csproj" />
 </Solution>

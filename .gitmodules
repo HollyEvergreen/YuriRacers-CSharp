@@ -1,0 +1,3 @@
+[submodule "Yui"]
+	path = Yui
+	url = https://github.com/HollyEvergreen/Yui.git

@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\YuriEngine\YuriEngine.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Silk.NET" Version="2.23.0" />
+    <PackageReference Include="Silk.NET.OpenGL.Extensions.ImGui" Version="2.23.0" />
+    <PackageReference Include="Standart.Hash.xxHash" Version="4.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\config\window.toml">
+      <Link>YuriRacers_cs\config\window.toml</Link>
+    </Content>
+    <Content Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\content\fb-blit.slang">
+      <Link>YuriRacers_cs\content\fb-blit.slang</Link>
+    </Content>
+    <Content Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\content\minimal_frag.frag">
+      <Link>YuriRacers_cs\content\minimal_frag.frag</Link>
+    </Content>
+    <Content Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\content\minimal_vertex.vert">
+      <Link>YuriRacers_cs\content\minimal_vertex.vert</Link>
+    </Content>
+    <Content Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\Yuri.cfg">
+      <Link>YuriRacers_cs\Yuri.cfg</Link>
+    </Content>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>YuriRacers</RootNamespace>
+  </PropertyGroup>
+
+</Project>
