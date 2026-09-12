@@ -1,5 +1,5 @@
 <Solution>
 	<Project Path="YuriEngine/YuriEngine.csproj" />
-	<Project Path="PixelRacers_cs\PixelRacers_cs.csproj" />
 	<Project Path="Yui/Yui.csproj" />
+	<Project Path="YuriRacers_cs\YuriRacers_cs.csproj" />
 </Solution>

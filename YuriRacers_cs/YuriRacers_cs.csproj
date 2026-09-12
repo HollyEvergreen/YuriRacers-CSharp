@@ -11,11 +11,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\config\ShaderRegistry.cache.toml">
+      <Link>YuriRacers_cs\config\ShaderRegistry.cache.toml</Link>
+    </Content>
     <Content Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\config\window.toml">
       <Link>YuriRacers_cs\config\window.toml</Link>
-    </Content>
-    <Content Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\content\fb-blit.slang">
-      <Link>YuriRacers_cs\content\fb-blit.slang</Link>
     </Content>
     <Content Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\content\minimal_frag.frag">
       <Link>YuriRacers_cs\content\minimal_frag.frag</Link>
@@ -23,9 +23,15 @@
     <Content Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\content\minimal_vertex.vert">
       <Link>YuriRacers_cs\content\minimal_vertex.vert</Link>
     </Content>
-    <Content Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\Yuri.cfg">
-      <Link>YuriRacers_cs\Yuri.cfg</Link>
+    <Content Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\content\shaders\fb-blit.slang">
+      <Link>YuriRacers_cs\content\shaders\fb-blit.slang</Link>
     </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="..\..\..\..\home\Holly\.config\YuriRacers_cs\shaderCache\">
+      <Link>YuriRacers_cs\shaderCache</Link>
+    </Folder>
   </ItemGroup>
 
   <PropertyGroup>
@@ -34,6 +40,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <RootNamespace>YuriRacers</RootNamespace>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
 </Project>
